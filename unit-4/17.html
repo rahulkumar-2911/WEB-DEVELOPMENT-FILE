@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    // Rahul kumar_ 11081
+<head>
+    <title>Event Listeners</title>
+</head>
+<body>
+
+<button id="btn">Click Me</button>
+<p id="msg"></p>
+
+<script>
+let button = document.getElementById("btn");
+
+button.addEventListener("click", function () {
+    document.getElementById("msg").innerHTML = "Button Clicked!";
+});
+
+document.addEventListener("keydown", function () {
+    document.getElementById("msg").innerHTML = "Key Pressed!";
+});
+</script>
+
+</body>
+</html>

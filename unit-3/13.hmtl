@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+//_rahul kumar_11081_
+<head>
+    <title>Functions & Scope</title>
+</head>
+<body>
+
+<h2>JavaScript Functions & Variables</h2>
+
+<script>
+function demo() {
+    var a = 10;      // function scope
+    let b = 20;      // block scope
+    const c = 30;    // constant value
+
+    document.write("var a = " + a + "<br>");
+    document.write("let b = " + b + "<br>");
+    document.write("const c = " + c + "<br>");
+}
+
+demo();  // function call
+</script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+body {
+    background-image: url('https://via.placeholder.com/800');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    width: 300px;
+
+    /* Box Model */
+    padding: 20px;
+    margin: 50px auto;
+    border: 4px solid darkblue;
+
+    /* Styling */
+    background-color: lightyellow;
+    text-align: center;
+}

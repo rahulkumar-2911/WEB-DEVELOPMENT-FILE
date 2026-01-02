@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    // Rahul kumar_ 11081
+<head>
+    <title>Create & Remove Elements</title>
+</head>
+<body>
+
+<button onclick="addItem()">Add Item</button>
+<button onclick="removeItem()">Remove Item</button>
+
+<ul id="list"></ul>
+
+<script>
+function addItem() {
+    let li = document.createElement("li");
+    li.innerHTML = "New Item";
+    document.getElementById("list").append(li);
+}
+
+function removeItem() {
+    let list = document.getElementById("list");
+    if (list.lastChild) {
+        list.removeChild(list.lastChild);
+    }
+}
+</script>
+
+</body>
+</html>

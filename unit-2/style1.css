@@ -1,0 +1,25 @@
+/* Background Image */
+body {
+    background-image: url("https://via.placeholder.com/900");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Box Model Demonstration */
+.box {
+    width: 300px;
+
+    /* Padding (inside space) */
+    padding: 20px;
+
+    /* Margin (outside space) */
+    margin: 60px auto;
+
+    /* Border */
+    border: 4px solid darkblue;
+
+    /* Background color */
+    background-color: lightyellow;
+
+    text-align: center;
+}
